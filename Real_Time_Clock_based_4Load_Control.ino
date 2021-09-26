@@ -304,7 +304,7 @@ void setTimer (){
 //Timer
 if (setMode == 0 && setAlarm >0 && mode>0){
   lcd.setCursor (0,0);
-  lcd.print("Timer");
+  lcd.print("Load ");
   lcd.print(mode);
   lcd.print(" On :");
   lcd.setCursor (11,0);
@@ -315,7 +315,7 @@ if (setMode == 0 && setAlarm >0 && mode>0){
   lcd.print(StartMM % 10);
 
   lcd.setCursor (0,1);
-  lcd.print("Timer");
+  lcd.print("Load ");
   lcd.print(mode);
   lcd.print(" Off:");
   lcd.setCursor (11,1);
